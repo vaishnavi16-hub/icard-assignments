@@ -1,0 +1,476 @@
+
+
+/* font-face {  */
+  /* font-family: "Barlow"; */
+    /* src: url("../fonts/Barlow/Barlow-BlackItalic.ttf"); */
+/* } */
+
+
+font-face{
+    font-family: "Barlow";
+    src: url("../fonts/Barlow/Barlow-Black.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    /* font-family: barlow; */
+      background-color:rgb(210, 210, 210);
+    }
+
+
+.icard-wrapper{
+position: relative;
+width: 200mm;
+height: 237mm;
+top: 50mm;
+left: 50mm;
+overflow: hidden;
+border: 0.75pt solid #ffffff ;
+}
+
+
+.id-card-background1{
+
+    height: 237mm;
+    width: 200mm;
+    position: relative;
+    top: 0mm;
+    background-color:rgb(230, 231, 233);
+}
+.id-card-background2{
+   position: absolute;
+   top: -2mm;
+   height: 240mm;
+   width: 245mm;
+   left: 104mm;
+   background-color: rgb(197, 198, 202);
+   transform: skewX(-39deg);
+}
+
+
+.id-back{
+    position: absolute;
+    left: 106mm;
+    top: 65mm;
+    width: 70mm;
+    height: 110mm;
+    overflow: hidden;
+    /* border: 2px solid black; */
+    background-color: white;
+
+}
+/* .id-back{
+
+    position: absolute;
+    left: 21mm;
+    top: 65mm;
+    width: 70mm;
+    height: 110mm;
+    overflow: hidden;
+    border: 2px solid black;
+
+} */
+ .id-front{
+
+
+position: absolute;
+    left: 21mm;
+    top: 65mm;
+    width: 70mm;
+    height: 110mm;
+    overflow: hidden;
+    /* border: 2px solid black; */
+    background-color: white;
+    /* overflow: hidden; */
+}
+
+
+
+/* front-boxes */
+
+
+/* .front-box1{
+    position: absolute;
+    height: 20mm;
+    width: 20mm;
+    background-color: pink;
+    top: 20mm;
+    left: 10mm;
+    rotate: 57deg;
+} */
+/* .front-box1 { */
+    /* position: absolute;
+    height: 72mm;
+    width: 83mm;
+    background-color: pink;
+    top: 31mm;
+    rotate: 57deg;
+} */
+
+
+
+.front-box1 {
+    position: absolute;
+    height: 75mm;
+    width: 78mm;
+    left: -10mm;
+    background-color:rgb(51, 49, 50);
+    top: -41mm;
+    rotate: 62deg;
+    z-index: 1;
+
+}
+
+
+.front-box2{
+    position: absolute;
+    height: 33mm;
+    width: 19mm;
+    /* border: 1px solid black; */
+    rotate: -29deg;
+    top: 22mm;
+    background-color:rgb(246, 120, 33);
+    left: -11mm;
+    z-index: 1;
+}
+
+
+
+.front-box3{
+    height: 26mm;
+    width: 65mm;
+    background-color:rgb(249, 156, 28);
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 29mm;
+    rotate: -21deg;
+    z-index: 0;
+    left: -11mm;
+}
+
+.front-box4{
+
+    position: absolute;
+    height: 48mm;
+    width: 34mm;
+    /* border: 1px solid black; */
+    rotate: -29deg;
+    transform: skewX(9deg);
+    top: 22mm;
+    background-color: rgb(246, 120, 33);
+    left: 52mm;
+    z-index: 1;
+}
+
+
+.front-box5{
+    left: -4mm;
+    position: absolute;
+    height: 20mm;
+    width: 39mm;
+    background-color:rgb(249, 156, 28);
+    bottom: -14mm;
+    rotate: 15deg;
+}
+
+
+
+
+
+
+
+
+/* back-boxes */
+
+.back-box1{
+position: absolute;
+height: 24mm;
+width: 49mm;
+background-color: rgb(249, 156, 28);
+bottom: -14mm;
+rotate: 14deg;
+top: -18mm;
+left: 24mm;
+}
+
+
+.back-box2{
+
+    position: absolute;
+    height: 75mm;
+    width: 77mm;
+    left: 0mm;
+    background-color:rgb(51, 49, 50);
+    top: 80mm;
+    rotate: 64deg;
+    z-index: 1;
+
+}
+
+.back-box3{
+    position: absolute;
+    height: 33mm;
+    width: 19mm;
+    /* border: 1px solid black; */
+    rotate: -27deg;
+    top: 60mm;
+    background-color:rgb(246, 120, 33);
+    left: 61mm;
+    z-index: 1;
+
+}
+
+.back-box4{
+ 
+    height: 31mm;
+    width: 74mm;
+    background-color:rgb(249, 156, 28);
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 62mm;
+    rotate: -14deg;
+    z-index: 0;
+    left: 1mm;
+}
+
+.back-box5
+{
+ 
+    
+    position: absolute;
+    height: 60mm;
+    width: 33mm;
+    /* border: 1px solid black; */
+    rotate: -26deg;
+    transform: skewX(9deg);
+    top: 31mm;
+    background-color: rgb(246, 120, 33);
+    left: -19mm;
+    z-index: 1;
+
+}
+
+
+
+.company-logo img{
+    height: 13mm;
+    width: 14mm;
+    background-color: pink;
+    position: absolute;
+    top: 74mm;
+    left: 27mm;
+    z-index: 1;
+    border-radius: 85%;
+}
+
+
+.company-logo2 img{
+    height: 16mm;
+    width: 21mm;
+    background-color: pink;
+    position: absolute;
+    top: 82mm;
+    left: 134mm;
+    z-index: 1;
+    border-radius: 85%;
+}
+
+.company-name{
+    height: 20mm;
+    width: 36mm;
+    position: absolute;
+    top: 75mm;
+    left: 44mm;
+    color: white;
+    z-index: 1;
+    font-size: 15pt;
+    
+}
+
+.company-name2 .p1{
+    position: absolute;
+    top: 0mm;
+    left: 2mm;
+    height: 20mm;
+    width: 20mm;
+    color: gray;
+    font-family: barlow;
+}
+
+.company-name2 .p2{
+    position: absolute;
+    top: 0mm;
+    left: 34mm;
+}
+.company-name p{
+    position: absolute;
+    color: gray;
+    top: -6mm;
+
+}
+
+.logo b{
+    position: absolute;
+    top: 0mm;
+    left: 23mm;
+    font-family: barlow;
+}
+.tag-line{
+    position: absolute;
+    height: 20mm;
+    width: 50mm;
+    top: 82mm;
+    z-index: 10;
+    left: 47mm;
+    font-size: 8pt;
+    color: gray;
+}
+
+.tag-line2{
+
+
+    position: absolute;
+    height: 20mm;
+    width: 50mm;
+    top: 41mm;
+    font-size: 8pt;
+    left: 20mm;
+    color: gray;
+    /* background-color: red; */
+
+}
+
+.website2{
+    position: absolute;
+    height: 20mm;
+    width: 20mm;
+    left: 22mm;
+    top: 90mm;
+    z-index: 10;
+    color: gray;
+}
+
+.website2 p{
+    position: absolute;
+    left: -2mm;
+    z-index: 10;
+    top: -2mm;
+    color:white;
+}
+
+
+.global-sign {
+    position: absolute;
+    top: 20mm;
+    height: 20mm;
+    width: 20mm;
+    left: 20mm;
+
+}
+
+
+.design{
+
+    z-index: 10;
+    position: absolute;
+    height: 20mm;
+    left: 67mm;
+    top: 82mm;
+    font-size: 8pt;
+    width: 20mm;
+    color: gray;
+}
+
+.person-name
+{
+    height: 11mm;
+    width: 43mm;
+    position: absolute;
+    top: 129mm;
+    /* background-color: pink; */
+    border-left: 5px solid orange;
+    z-index: 10;
+    left: 33mm;
+    text-align: center;
+}
+
+.person-name p{
+    position: absolute;
+    top: -3mm;
+    left: 5mm;
+}
+
+
+.company-name2{
+    position: absolute;
+    top: 32mm;
+    height: 20mm;
+    width: 51mm;
+    left: 11mm;
+    font-size: 22pt;
+    /* background-color: pink; */
+
+}
+.person-possion p {
+/* height: 20mm;
+width: 20mm; */
+color: gray;
+position: absolute;
+/* top: 50mm; */
+top: 133mm;
+font-size: 8pt;
+left: 39mm;
+z-index: 10;
+
+/* z-index: 10; */
+}
+
+
+.contact{
+height: 24mm;
+width: 52mm;
+/* background-color: red; */
+position: absolute;
+/* border: 1px solid black; */
+top: 144mm;
+z-index: 10;
+left: 40mm;
+}
+
+
+
+.number{
+    position: absolute;
+top: 1mm;
+left: 1mm;
+
+}
+
+
+.email
+{
+position: absolute;
+   top: 6mm;
+left: 1mm;
+
+
+}
+
+.address{
+position: absolute;
+top: 12mm;
+left: 1mm;
+
+}
+.website{
+position: absolute;
+top: 18mm;
+left: 1mm;
+}
+
+
+
